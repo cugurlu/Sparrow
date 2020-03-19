@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3050101"
+        tools:context="com.example.spar.button.AisleDetails">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="font/open_sans_light" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="400sp"
+            android:layout_height="150dp"
+            android:layout_below="@id/name"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            app:fontFamily="font/open_sans_light" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="400sp"
+            android:layout_height="150dp"
+            android:layout_below="@id/content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            app:fontFamily="font/open_sans_light" />
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="400sp"
+            android:layout_height="100sp"
+            android:layout_below="@id/content2"
+            android:layout_centerHorizontal="true"
+            android:background="#FFEB3B"
+            android:onClick="buttonClicked"
+            android:text="1. Scan New Code"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:fontFamily="font/open_sans_light" />
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="400sp"
+            android:layout_height="100sp"
+            android:layout_below="@id/scan"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FFEB3B"
+            android:onClick="buttonClicked"
+            android:text="2. Select New Mode"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:fontFamily="font/open_sans_light" />
+    </RelativeLayout>
+</ScrollView>
+
