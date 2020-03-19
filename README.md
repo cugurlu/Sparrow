@@ -9,6 +9,7 @@
 
 **Description**
 
-- It is designed as part of an honours project. Eye Oculus project aims to design prototypes for blind or visually impaired people
-- Users can scan different QR codes placed in the supermarket and then app directs them to appropriate pages
-- The android app navigates users according to the fixed supermarket map in the photo above for now. In the future, I am planning to create a platform. In this platform, markets can upload their maps and app can be used for many markets
+- It is designed as part of a honours project. Eye Oculus project aims to design prototypes for blind or visually impaired people
+- Android app navigates user according to the market map in the photo above
+- Users scan different QR codes placed in supermarket and then app direct them to appropriate pages
+"# Asteroids-game" 
